@@ -6,6 +6,9 @@ html, body {
     background-color: #222831;
 }
 
+
+/* home page styles */
+
 #content {
     margin: 10px;
     margin-top: 20px;
@@ -29,7 +32,7 @@ html, body {
 }
 
 .text {
-    color: #fad609;
+    color: #e9cf3a;
     text-align: center;
     top: 50%;
     left: 50%;
@@ -49,8 +52,111 @@ nav > button {
     font-size:  20px;
     width: 32%;
     background-color: #3a4352;
-    color: #fad609;
+    color: #e9cf3a;
     margin: 2px;
     border-radius: 15px;
     padding: 10px 0 10px 0;
+}
+
+
+
+/* menu page styles */
+
+.menu-heading {
+    position: relative; 
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #e9cf3a;
+    font-weight: 500;
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.menu-heading::after {
+    content: "";
+    position: absolute;
+    left: 50%; /* Start from center */
+    bottom: 0;
+    transform: translateX(-50%); /* Center the border */
+    width: 50%; /* Width of the border */
+    border-bottom: 2px solid #3a4352; 
+}
+
+
+.menu-list {
+    border: 2px solid #3a4352;
+    color: rgb(252, 170, 170);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 600px;
+    margin-right: 18%;
+    margin-left: 18%;
+    border-radius: 50px;
+    padding-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-bottom: 2px solid rgb(252, 170, 170);
+    
+}
+
+.dish-name {
+    padding-bottom: 20px;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-weight: 400;
+}
+
+.dish-price {
+    padding-bottom: 20px;
+    padding-top: 4px;
+    padding-left: 4%;
+    padding-right: 4%;  
+    border-bottom: 2px solid #3a4352;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.first-dish {
+    border-top: 2px solid #3a4352;
+}
+
+
+
+
+/* contact page styles */
+
+
+.contact-container {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.contact-heading {
+    color: #e9cf3a;
+    text-align: center;
+    padding-top: 25px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+
+.contact-divs {
+    border: 2px solid #3a4352;
+    height: 150px;
+    color: rgb(252, 170, 170);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+
+.thank-heading {
+    width: 60%;
+    padding-left: 30px;
+    padding-right: 30px;
 }

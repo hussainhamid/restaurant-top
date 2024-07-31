@@ -5,7 +5,7 @@ import './homepage.js';
 
 import { menuComponent } from './menu.js';
 import { homeComponent } from './homepage.js';
-
+import { contactComponent } from './contact.js';
 
 
 
@@ -35,4 +35,14 @@ homeBtn.addEventListener("click", () => {
     content.innerHTML = '';
 
    document.body.appendChild(homeComponent());
+});
+
+
+const contactBtn = document.querySelector(".contact");
+
+contactBtn.addEventListener('click', () => {
+
+    content.innerHTML = "";
+
+    document.body.appendChild(contactComponent());
 });
