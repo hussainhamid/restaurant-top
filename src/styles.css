@@ -89,8 +89,8 @@ nav > button {
     color: rgb(252, 170, 170);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     height: 600px;
-    margin-right: 18%;
-    margin-left: 18%;
+    margin-right: 20%;
+    margin-left: 20%;
     border-radius: 50px;
     padding-top: 50px;
     padding-left: 5%;
@@ -149,14 +149,20 @@ nav > button {
     justify-content: center;
     align-items: center;
     margin: auto;
-    width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 600px;
     border-radius: 20px;
     margin-bottom: 50px;
 }
 
 
 .thank-heading {
-    width: 60%;
-    padding-left: 30px;
-    padding-right: 30px;
+    width: 700px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
