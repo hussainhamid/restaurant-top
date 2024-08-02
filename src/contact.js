@@ -24,7 +24,7 @@ export function contactComponent() {
 
 // this is the code for website contact block
         const websiteContact = document.createElement("div");
-        websiteContact.innerHTML = "through our website: finestrestaurant.com checking";
+        websiteContact.innerHTML = "through our website: finestrestaurant.com";
         websiteContact.classList.add("contact-divs")
 
 
